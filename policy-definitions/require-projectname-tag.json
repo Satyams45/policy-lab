@@ -1,0 +1,28 @@
+{
+  "properties": {
+    "displayName": "Only Allowed Locations",
+    "description": "This policy denies resource deployments to any region not listed in the allowed locations parameter.",
+    "mode": "All",
+    "parameters": {
+      "allowedLocations": {
+        "type": "Array",
+        "metadata": {
+          "description": "The list of allowed locations for resource deployment.",
+          "displayName": "Allowed Locations"
+        },
+        "defaultValue": ["canadacentral"]
+      }
+    },
+    "policyRule": {
+      "if": {
+        "not": {
+          "field": "location",
+          "in": "[parameters('allowedLocations')]"
+        }
+      },
+      "then": {
+        "effect": "deny"
+      }
+    }
+  }
+}

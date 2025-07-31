@@ -50,9 +50,9 @@ Screenshots of each case are saved in the `/screenshots` folder.
 
 ## 🎥 Video Demo
 :  
-[🔗 Video Link](https://your-video-link-here.com)
+[🔗 Video Link](https://[your-video-link-here.com](https://youtu.be/I_n4GQLxPxw))
 
----
+---z
 
 ## 📁 Repository Structure
 

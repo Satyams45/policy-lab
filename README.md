@@ -81,5 +81,3 @@ Screenshots of each case are saved in the `/screenshots` folder.
 - Testing policies immediately after assignment helps catch misconfigurations.
 
 ---
-
-✅ **Lab Complete**
